@@ -3,7 +3,7 @@ body {
   background-color: rgb(153, 165, 151);
   color: rgb(226, 232, 221);
   font-family: "Kaisei Opti", serif;
-  background-image: url("/imageSrc/icon.PNG");
+  background-image: url("imageSrc/icon.PNG");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
