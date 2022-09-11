@@ -1,0 +1,249 @@
+body {
+  text-align: center;
+  background-color: rgb(153, 165, 151);
+  color: rgb(226, 232, 221);
+  font-family: "Kaisei Opti", serif;
+  background-image: url("imageSrc/icon.PNG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+main {
+  background-color: rgba(78, 83, 64, 0.5);
+}
+
+h2 {
+  font-size: 9vw;
+  font-weight: bolder;
+  border-top: 2px solid rgb(226, 232, 221);
+  margin-bottom: auto;
+}
+
+.menu {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 15vh;
+}
+.menu .menuBtn {
+  margin: 2.5% 0.5%;
+  background-color: rgba(226, 232, 221, 0);
+  width: 10%;
+  min-width: 80px;
+  height: 50%;
+  border: 2px solid rgb(226, 232, 221);
+  border-radius: 5%;
+  font-size: large;
+  font-weight: 600;
+  color: rgb(226, 232, 221);
+  transition: all 0.5s;
+  filter: none;
+}
+.menu .menuBtn:last-child {
+  margin-right: 1%;
+}
+.menu .menuBtn:hover {
+  color: rgb(78, 83, 64);
+  background-color: rgb(226, 232, 221);
+  filter: drop-shadow(0px 0px 3px rgb(226, 232, 221));
+}
+.menu .icon {
+  margin-top: 1%;
+  margin-right: auto;
+  margin-left: 1%;
+  border: 2px solid rgb(226, 232, 221);
+  border-radius: 50%;
+}
+.menu .icon:hover {
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 3px rgba(226, 232, 221, 0.836));
+}
+
+#top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 100vh;
+}
+#top h1 {
+  font-size: 8vw;
+  background-color: rgba(78, 83, 64, 0.9);
+}
+#top p {
+  font-size: 4vw;
+  background-color: rgba(78, 83, 64, 0.9);
+}
+
+.worksArea {
+  display: flex;
+  justify-content: center;
+  margin: 0 2% 1%;
+}
+.worksArea .workCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 25vw;
+  background-color: rgba(78, 83, 64, 0.852);
+  border-radius: 5%;
+  padding: 2%;
+  margin: 2% 1%;
+}
+.worksArea .workCard img {
+  width: 70%;
+  border-radius: 50%;
+  margin-bottom: 2%;
+  padding: 4%;
+}
+.worksArea .workCard h3 {
+  font-size: 2vw;
+  margin: 2% 0;
+}
+.worksArea .workCard p {
+  font-size: 1vw;
+  margin: 2% 3%;
+}
+.worksArea .workCard a {
+  width: 100%;
+  color: rgb(226, 232, 221);
+  text-decoration: none;
+  border: 2px solid rgb(226, 232, 221);
+  padding: 1% 4%;
+  font-size: 3vw;
+  transition: all 0.5s;
+  filter: none;
+}
+.worksArea .workCard a:hover {
+  color: rgb(78, 83, 64);
+  background-color: rgb(226, 232, 221);
+  filter: drop-shadow(0px 0px 3px rgb(226, 232, 221));
+}
+.worksArea .workCard .comment {
+  font-size: 1vw;
+}
+
+.about h3 {
+  font-size: 50px;
+  font-weight: lighter;
+  margin-top: 2%;
+  border-bottom: 0.5px solid rgb(226, 232, 221);
+}
+.about .intro {
+  text-align: left;
+  margin-left: 3%;
+}
+.about .intro .profile {
+  display: flex;
+  align-items: center;
+}
+.about .intro .profile img {
+  width: 15%;
+  opacity: 0.8;
+  margin-left: auto;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+.about .intro .profile h4 {
+  display: inline-block;
+  margin-top: 2%;
+  margin-right: 2%;
+  font-size: 3.5vw;
+}
+.about .intro p {
+  margin-top: 2%;
+  font-size: 2vw;
+  margin-right: 0.5%;
+  background-color: rgba(78, 83, 64, 0.7);
+}
+.about .skills {
+  text-align: right;
+  margin-right: 3%;
+}
+.about .skills h4 {
+  text-align: left;
+  margin-left: 3%;
+  font-size: 2.5vw;
+}
+.about .skills h5 {
+  text-align: left;
+  margin-left: 3%;
+  font-size: 2.5vw;
+}
+.about .skills ul {
+  padding-left: 0;
+}
+.about .skills li {
+  text-align: left;
+  margin-left: 3%;
+  font-size: 2vw;
+  list-style: none;
+}
+.about .skills li a {
+  text-decoration: none;
+  color: rgb(226, 232, 221);
+}
+.about .skills li a:hover {
+  filter: drop-shadow(0px 0px 3px rgba(226, 232, 221, 0.836));
+}
+
+.hobby h3 {
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 4%;
+}
+.hobby h4 {
+  text-align: right;
+  margin-right: 3%;
+  font-size: 2.5vw;
+}
+.hobby p {
+  text-align: right;
+  margin-top: 1%;
+  font-size: 2vw;
+  margin-left: 3%;
+  margin-left: 3%;
+  background-color: rgba(78, 83, 64, 0.7);
+}
+
+.swiper {
+  width: 40%;
+  padding-bottom: 3%;
+}
+.swiper .swiper-pagination-bullet {
+  background-color: rgb(226, 232, 221);
+}
+.swiper .swiper-button-prev {
+  color: rgb(226, 232, 221);
+}
+.swiper .swiper-button-next {
+  color: rgb(226, 232, 221);
+}
+.swiper .swiper-slide span {
+  color: rgb(202, 32, 32);
+}
+.swiper .swiper-slide video {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  background-color: rgb(78, 83, 64);
+  color: rgb(153, 165, 151);
+}
+footer p {
+  margin-bottom: 0;
+}/*# sourceMappingURL=index.css.map */
